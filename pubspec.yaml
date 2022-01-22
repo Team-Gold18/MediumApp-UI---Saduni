@@ -1,0 +1,35 @@
+name: login_apps
+description: A new Flutter application.
+
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.0.0
+  animated_splash_screen: ^1.1.0
+  url_launcher: ^6.0.18
+  intro_slider: ^3.0.2
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  
